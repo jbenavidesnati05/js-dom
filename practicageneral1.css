@@ -1,0 +1,9 @@
+h2{
+    text-align: center;
+}
+.formulario{
+    width: 20%;
+    border: 1px solid black;
+    margin: auto;
+    padding: 10px;
+}
