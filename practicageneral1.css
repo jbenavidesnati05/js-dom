@@ -1,9 +1,51 @@
+body{
+    background: rgb(97,183,106);
+background: radial-gradient(circle, rgba(97,183,106,1) 0%, rgba(84,112,214,0.7635933806146572) 62%);
+}
 h2{
     text-align: center;
+    font-size: 30px;
+
 }
 .formulario{
     width: 20%;
-    border: 1px solid black;
+    border: 3px solid rgb(3, 22, 82);
+    border-radius: 10px;
     margin: auto;
     padding: 10px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    box-shadow: 4px 4px 4px rgb(29, 29, 95);
+}
+
+input{
+    display: block;
+    width: 100%;
+    margin: auto;
+
+}
+label{
+    /* display: block; */
+    font-weight: bold;
+    color: rgb(35, 35, 88);
+}
+div.boton{
+    text-align: center;
+    width: 15%;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.col-6{
+    width: 30%;
+    margin: auto;
+    text-align: center;
+    border: 1px solid black;
+}
+tbody{
+    align-items: center;
+}
+.col-6 tr:hover {
+	text-decoration: line-through;
 }
